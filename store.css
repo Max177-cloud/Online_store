@@ -1,0 +1,115 @@
+.header{
+    display: flex;
+    background-color: black;
+    padding: 20px;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 30px;
+    color: #fff;
+}
+.burger_list{
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    background-color: gold;
+    width: 0%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    overflow: hidden;
+    padding: 0;
+    transition: 0.5s;
+}
+.menulink{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+.home_products{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.cards{
+    width: 25%;
+    border: 1px solid black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cards>button{
+    display: block;
+    width: 250px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: green;
+    color: #fff;
+    font-size: 30px
+}
+.burger_btn{
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.burger_btn>span{
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+}
+.active_burger{
+    width: 30%;
+    overflow: visible;
+}
+.model{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    height: 0;
+    background-color: rgba(128, 128, 128, 0.5);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.model_title{
+    font-size: 56px;
+    color:#fff;
+    margin-bottom: 20px;
+}
+.model_text{
+    font-size: 40px;
+    color:#fff;
+    margin-bottom: 20px;
+}
+.model_input{
+width: 500px;
+height: 56px;
+font-size: 24px;
+}
+.model_close{
+    position: absolute;
+    top: 100px;
+    right: 50px;
+    font-size: 40px;
+    color: black;
+}
+.active_model{
+    height: 100%;
+    overflow: visible;
+}
